@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body background */
+body{
+    background-size: cover;
+}
+
+/* Navbar */
+#img-decor{
+    margin-left: 2em;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.btn-decor{
+    /* border: 1px solid red; */
+    margin-left: 42em;
+    font-size: larger;
+}
+.head-decor{
+    /* border: 1px solid red; */
+    margin-left: 12px;
+    font-size: larger;
+}
+
+/* form */
+#login-desc{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+}
+.form-decor{
+    border: 3px solid darkblue;
+    border-radius: 3%;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    margin-top: 4%;
+    margin-left: 32%;
+}
+.sign-btn{
+    margin-left: 40%;
+    margin-bottom: 3%;
+}
+.form-head{
+    text-align: center;
+    font-family: Comic;
+    background-color: rgb(253, 239, 183);
+    padding: 3px;
+    color: darkblue;
+}
+#labels{
+    font-weight: bold;
+    background-color: blanchedalmond;
+    padding: 3px;
+    color: darkblue;
+}
+#msg{
+    color: black;
+    background-color: rgb(250, 218, 131);
+    font-weight: bold;
+    font-family: Fantasy;
+    font-size: 150%;
+}
+
+/* description */
+.desc{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#desc-head{
+    font-size: 250%;
+    font-weight: bold;
+}
+#desc-decor{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+/* todo list */
+#todo-head{
+    text-align: center;
+    background-color: rgb(250, 233, 167);
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
+table{
+    margin-top: 3%;
+    margin-left: 20%;
+    background-color: lightskyblue;
+}
+table,th,td{
+    border: 2px solid darkslateblue;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    text-transform: uppercase;
+    color: white;
+    background-color: blue;
+}
+#list-body{
+    background: url("bgg.webp");
+    background-size: contain;
+    background-attachment: fixed;
+}
